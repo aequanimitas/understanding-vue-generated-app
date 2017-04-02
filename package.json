@@ -1,0 +1,17 @@
+{
+  "name": "understanding_vue_cli",
+  "version": "1.0.0",
+  "description": "Documentation on how the things are wired together within a generated app via vue-cli, just tracing things out",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node build/dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.2",
+    "opn": "^4.0.2"
+  }
+}
