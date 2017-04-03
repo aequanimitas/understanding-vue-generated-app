@@ -27,4 +27,5 @@ console.log('> Starting dev server...')
 devMiddleware.waitUntilValid(() => {
   opn(uri)
 })
-app.listen(9000)
+
+app.listen(port)
