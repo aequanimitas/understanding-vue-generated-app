@@ -23,4 +23,7 @@ vue-cli, just tracing things out
 - ```config``` is now located on a file of its own, even ports
 
 
-##### Adding vue
+##### Integrating vue
+- merge config.dev, needs .json
+- css loaders in utils loads all style loaders for webpack
+- on webpack confs rules, it's options not option

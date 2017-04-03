@@ -11,8 +11,8 @@ const autoOpenBrowser = !!config.dev.autoOpenBrowser
 const webpackConfig = require('./webpack.dev.conf')
 const compiler = webpack(webpackConfig)
 const devMiddleware = require('webpack-dev-middleware')(compiler, {
-	publicPath: webpackConfig.output.publicPath
-//	quiet: true	
+	publicPath: webpackConfig.output.publicPath,
+	quiet: true	
 })
 const hotMiddleware = require('webpack-hot-middleware')(compiler, {
 	log: () => {}
